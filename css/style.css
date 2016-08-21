@@ -25,14 +25,26 @@ html {
         margin-top: 150px; }
       html body section.content .col-md-4:nth-of-type(3) {
         margin-top: 40px; }
+      html body section.content .album-wrapper {
+        display: block;
+        height: 325px;
+        width: 325px;
+        position: relative; }
       html body section.content .album {
         background: grey;
         height: 325px;
         margin-top: 60px;
+        position: absolute;
         width: 325px;
-        -webkit-box-shadow: 25px 25px 0px 0px white;
-        -moz-box-shadow: 25px 25px 0px 0px white;
-        box-shadow: 25px 25px 0px 0px white; }
+        z-index: 2; }
+      html body section.content .album-shadow {
+        background: #fff;
+        height: 325px;
+        margin-top: 60px;
+        position: absolute;
+        transform: translate(20px, 20px);
+        width: 325px;
+        z-index: 1; }
     html body footer {
       background: #fff;
       padding: 70px 0; }

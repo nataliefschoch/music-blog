@@ -9,6 +9,7 @@
   <meta name="description" content="Natalie Schoch - Portfolio">
   <meta name="author" content="Natalie Schoch">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 
 <body>
@@ -38,26 +39,18 @@
 				<div class='row'>
 					<div class='col-md-12'>
 						<a href='#'>
-							<div class='album'><img src='images/album-cover-soft-tender@2x.jpg' width='325px'></div>
+							<div class='album-wrapper'>
+								<div class='album'><img src='images/album-cover-soft-tender@2x.jpg' width='325px'></div>
+								<div class='album-shadow'></div>
+							</div>
 						</a>
 					</div>
 					<div class='col-md-12'>
 						<a href='#'>
-							<div class='album'></div>
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class='col-md-4'>
-				<div class='row'>
-					<div class='col-md-12'>
-						<a href='#'>
-							<div class='album'></div>
-						</a>
-					</div>
-					<div class='col-md-12'>
-						<a href='#'>
-							<div class='album'></div>
+							<div class='album-wrapper'>
+								<div class='album'></div>
+								<div class='album-shadow'></div>
+							</div>
 						</a>
 					</div>
 				</div>
@@ -66,12 +59,38 @@
 				<div class='row'>
 					<div class='col-md-12'>
 						<a href='#'>
-							<div class='album'></div>
+							<div class='album-wrapper'>
+								<div class='album'></div>
+								<div class='album-shadow'></div>
+							</div>
 						</a>
 					</div>
 					<div class='col-md-12'>
 						<a href='#'>
-							<div class='album'></div>
+							<div class='album-wrapper'>
+								<div class='album'></div>
+								<div class='album-shadow'></div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class='col-md-4'>
+				<div class='row'>
+					<div class='col-md-12'>
+						<a href='#'>
+							<div class='album-wrapper'>
+								<div class='album'></div>
+								<div class='album-shadow'></div>
+							</div>
+						</a>
+					</div>
+					<div class='col-md-12'>
+						<a href='#'>
+							<div class='album-wrapper'>
+								<div class='album'></div>
+								<div class='album-shadow'></div>
+							</div>
 						</a>
 					</div>
 				</div>
@@ -109,3 +128,13 @@
 	</div>
 </footer>
 </body>
+
+<script>
+	$( ".album" ).hover(
+	  function() {
+	    $( '.album-shadow' ).css( "transform","translate(0px, 0px)" );
+	  }, function() {
+	    $('.album-shadow').css( "transform","translate(20px, 20px)" );
+	  }
+	);
+</script>
