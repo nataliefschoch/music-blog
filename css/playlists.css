@@ -9,7 +9,36 @@
 .text-right {
   text-align: right; }
 
-.content-playlist {
-  background: red; }
+section.content-playlist table {
+  width: 100%; }
+  section.content-playlist table td {
+    padding: 7px 20px; }
+section.content-playlist .album-wrapper {
+  display: block;
+  height: 325px;
+  width: 325px;
+  position: relative; }
+  section.content-playlist .album-wrapper .album {
+    -webkit-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+    -moz-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+    box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+    background: grey;
+    border-radius: 1px;
+    height: 325px;
+    position: absolute;
+    width: 325px;
+    z-index: 2; }
+  section.content-playlist .album-wrapper .album-shadow {
+    transition: all 0.2s ease;
+    -webkit-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+    -moz-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+    box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+    background: #fff;
+    border-radius: 1px;
+    height: 325px;
+    position: absolute;
+    transform: translate(20px, 20px);
+    width: 325px;
+    z-index: 1; }
 
 /*# sourceMappingURL=playlists.css.map */

@@ -1,6 +1,6 @@
 	<?php include 'header.php'; ?>
 
-	<section class='content text-center'>
+	<section class='content content-home text-center'>
 		<div class='container'>
 			<div class='row'>
 				<div class='col-md-4'>

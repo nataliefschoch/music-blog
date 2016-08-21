@@ -87,7 +87,30 @@ html {
 			}
 		}
 		section.content {
+			padding-top: 60px;
 			padding-bottom: 140px;
+			.album-wrapper {
+				display: block;
+				position: relative;
+				.album {
+					@include box-shadow;
+					background: grey;
+					border-radius: 1px;
+					height: 325px;
+					position: absolute;
+					width: 325px;
+					z-index: 2;
+				}
+				.album-shadow {
+					@include transition;
+					@include box-shadow;
+					background: $white;
+					border-radius: 1px;
+					position: absolute;
+					transform: translate(20px, 20px);
+					z-index: 1;
+				}
+			}
 		}
 		footer {
 			background: url('../images/bg-graph-pattern@2x.jpg');

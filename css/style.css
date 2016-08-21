@@ -22,42 +22,21 @@
 .text-right {
   text-align: right; }
 
-.col-md-4:nth-of-type(2) {
+section.content-home .col-md-4:nth-of-type(2) {
   margin-top: 150px; }
-.col-md-4:nth-of-type(3) {
+section.content-home .col-md-4:nth-of-type(3) {
   margin-top: 40px; }
-
-.album-wrapper {
-  display: block;
+section.content-home .album-wrapper {
   height: 325px;
-  margin-top: 60px;
-  width: 325px;
-  position: relative; }
-  .album-wrapper .album {
-    -webkit-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
-    -moz-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
-    box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
-    background: grey;
-    border-radius: 1px;
+  margin-bottom: 60px;
+  width: 325px; }
+  section.content-home .album-wrapper .album {
     height: 325px;
-    margin-top: 40px;
-    position: absolute;
-    width: 325px;
-    z-index: 2; }
-  .album-wrapper .album-shadow {
-    transition: all 0.2s ease;
-    -webkit-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
-    -moz-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
-    box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
-    background: #fff;
-    border-radius: 1px;
+    width: 325px; }
+  section.content-home .album-wrapper .album-shadow {
     height: 325px;
-    margin-top: 40px;
-    position: absolute;
-    transform: translate(20px, 20px);
-    width: 325px;
-    z-index: 1; }
-  .album-wrapper:hover .album-shadow {
+    width: 325px; }
+  section.content-home .album-wrapper:hover .album-shadow {
     transform: translate(26px, 26px); }
 
 .caps {
@@ -69,8 +48,37 @@
 .text-right {
   text-align: right; }
 
-.content-playlist {
-  background: red; }
+section.content-playlist table {
+  width: 100%; }
+  section.content-playlist table td {
+    padding: 7px 20px; }
+section.content-playlist .album-wrapper {
+  display: block;
+  height: 325px;
+  width: 325px;
+  position: relative; }
+  section.content-playlist .album-wrapper .album {
+    -webkit-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+    -moz-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+    box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+    background: grey;
+    border-radius: 1px;
+    height: 325px;
+    position: absolute;
+    width: 325px;
+    z-index: 2; }
+  section.content-playlist .album-wrapper .album-shadow {
+    transition: all 0.2s ease;
+    -webkit-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+    -moz-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+    box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+    background: #fff;
+    border-radius: 1px;
+    height: 325px;
+    position: absolute;
+    transform: translate(20px, 20px);
+    width: 325px;
+    z-index: 1; }
 
 p {
   font-size: 15px;
@@ -136,7 +144,31 @@ html {
         margin-top: 12px;
         opacity: 0.6; }
     html body section.content {
+      padding-top: 60px;
       padding-bottom: 140px; }
+      html body section.content .album-wrapper {
+        display: block;
+        position: relative; }
+        html body section.content .album-wrapper .album {
+          -webkit-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+          -moz-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+          box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+          background: grey;
+          border-radius: 1px;
+          height: 325px;
+          position: absolute;
+          width: 325px;
+          z-index: 2; }
+        html body section.content .album-wrapper .album-shadow {
+          transition: all 0.2s ease;
+          -webkit-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+          -moz-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+          box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+          background: #fff;
+          border-radius: 1px;
+          position: absolute;
+          transform: translate(20px, 20px);
+          z-index: 1; }
     html body footer {
       background: url("../images/bg-graph-pattern@2x.jpg");
       background-color: #fff;

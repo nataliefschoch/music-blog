@@ -1,5 +1,36 @@
 @import 'global_styles.scss';
 
-.content-playlist {
-	background:red;
+section.content-playlist {
+	table {
+		width: 100%;
+		td {
+			padding: 7px 20px;
+		}
+	}
+	.album-wrapper {
+		display: block;
+		height: 325px;
+		width: 325px;
+		position: relative;
+		.album {
+			@include box-shadow;
+			background: grey;
+			border-radius: 1px;
+			height: 325px;
+			position: absolute;
+			width: 325px;
+			z-index: 2;
+		}
+		.album-shadow {
+			@include transition;
+			@include box-shadow;
+			background: $white;
+			border-radius: 1px;
+			height: 325px;
+			position: absolute;
+			transform: translate(20px, 20px);
+			width: 325px;
+			z-index: 1;
+		}
+	}
 }
