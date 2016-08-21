@@ -1,0 +1,39 @@
+// Import styles
+@import url(reset.css);
+@import 'https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600';
+
+// Colors
+$white: #fff;
+$grey-100: #eee;
+$grey-200: #dadada;
+$grey-300: #cacaca;
+$black: #000;
+$green: #289258;
+
+$font-family-main: 'Source Code Pro', Helvetica, Arial, Sans;
+$font-size-base: 15px;
+$font-weight-bold: 600;
+$line-height-base: 20px;
+$background-color: $grey-100;
+$accent-color: $green;
+
+// Helpers
+.caps {
+	text-transform: uppercase;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+
+@mixin transition {
+	transition: all 0.2s ease;
+}
+
+@mixin box-shadow {
+  -webkit-box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.04);
+  -moz-box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.04);
+  box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.04);
+}
