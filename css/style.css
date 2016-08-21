@@ -1,5 +1,5 @@
 @import url(reset.css);
-@import "https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700";
+@import "https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600";
 .caps {
   text-transform: uppercase; }
 
@@ -15,20 +15,28 @@ p {
 
 a {
   color: #000; }
+  a:hover, a:visited, a:focus {
+    color: #000;
+    text-decoration: none; }
 
 .btn {
+  transition: all 0.2s ease;
   border: none;
   border-radius: 1px;
-  padding: 6px 30px; }
+  padding: 6px 27px; }
   .btn.btn-primary {
     background: #000;
     border: 1px solid #000; }
     .btn.btn-primary:hover {
       background: #289258;
       border: 1px solid #289258; }
+  .btn.btn-secondary {
+    background: #dadada; }
+    .btn.btn-secondary:hover {
+      background: #cacaca; }
 
 .input-group input {
-  border: 1px solid black;
+  border: 1px solid #dadada;
   border-radius: 1px;
   box-shadow: none;
   height: 33px; }
@@ -45,6 +53,24 @@ html {
     font-family: "Source Code Pro", Helvetica, Arial, Sans; }
     html body header {
       padding: 30px 0; }
+      html body header h1 {
+        display: inline-block;
+        font-size: 19px;
+        font-weight: 600;
+        margin-right: 6px;
+        vertical-align: -webkit-baseline-middle; }
+      html body header .moon {
+        background: url("../images/emoji-dark-moon@2x.png");
+        background-size: 27px;
+        display: inline-block;
+        height: 27px;
+        width: 27px;
+        vertical-align: -webkit-baseline-middle; }
+      html body header .moon-animation {
+        background: url("../images/emoji-moon-animation.gif");
+        background-size: 27px; }
+      html body header p {
+        margin-top: 12px; }
     html body section.content {
       padding-bottom: 140px; }
       html body section.content .col-md-4:nth-of-type(2) {
@@ -57,30 +83,32 @@ html {
         margin-top: 60px;
         width: 325px;
         position: relative; }
-      html body section.content .album {
-        -webkit-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
-        -moz-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
-        box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
-        background: grey;
-        border-radius: 1px;
-        height: 325px;
-        margin-top: 60px;
-        position: absolute;
-        width: 325px;
-        z-index: 2; }
-      html body section.content .album-shadow {
-        -webkit-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
-        -moz-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
-        box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
-        background: #fff;
-        border-radius: 1px;
-        height: 325px;
-        margin-top: 60px;
-        position: absolute;
-        transform: translate(20px, 20px);
-        transition: all 0.2s ease;
-        width: 325px;
-        z-index: 1; }
+        html body section.content .album-wrapper .album {
+          -webkit-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+          -moz-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+          box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+          background: grey;
+          border-radius: 1px;
+          height: 325px;
+          margin-top: 40px;
+          position: absolute;
+          width: 325px;
+          z-index: 2; }
+        html body section.content .album-wrapper .album-shadow {
+          transition: all 0.2s ease;
+          -webkit-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+          -moz-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+          box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+          background: #fff;
+          border-radius: 1px;
+          height: 325px;
+          margin-top: 40px;
+          position: absolute;
+          transform: translate(20px, 20px);
+          width: 325px;
+          z-index: 1; }
+        html body section.content .album-wrapper:hover .album-shadow {
+          transform: translate(26px, 26px); }
     html body footer {
       background: url("../images/bg-graph-pattern@2x.jpg");
       background-color: #fff;

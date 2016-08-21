@@ -17,13 +17,19 @@
 	<div class='container'>
 		<div class='nav row'>
 			<div class='col-md-4'>
-				<h1 class='caps'>
-					<a href='#'>I need space</a>
-				</h1>
+				<div class='logo'>
+					<a href='#'>
+						<h1 class='caps'>
+							I need space
+						</h1>
+						<div class='moon'></div>
+					</a>
+					<p>Curated mixes and playlists</p>
+				</div>
 			</div>
-			<div class='col-md-2 text-right'>
+			<div class='col-md-2 col-md-offset-1 text-right'>
 				<button class='btn btn-secondary' type="button">
-					bookmark
+					bookmark page
 				</button>
 			</div>
 			<div class='col-md-5'>
@@ -117,11 +123,11 @@
 </body>
 
 <script>
-	$(".album").hover(
+	$(".logo").hover(
 	  function() {
-	    $('.album-shadow').css("transform","translate(25px,25px)").addClass('box-shadow');
+	    $('.moon').addClass('moon-animation');
 	  }, function() {
-	    $('.album-shadow').css("transform","translate(20px, 20px)").removeClass('box-shadow');
+	    $('.moon').removeClass('moon-animation');
 	  }
 	);
 </script>

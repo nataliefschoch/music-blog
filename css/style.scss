@@ -2,7 +2,7 @@
 // Import styles
 @import url(reset.css);
 
-@import 'https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700';
+@import 'https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600';
 
 // Mixin and Variables styles
 @mixin font-smoothing {
@@ -12,14 +12,17 @@
 
 // Colors
 $white: #fff;
-$grey: #eee;
+$grey-100: #eee;
+$grey-200: #dadada;
+$grey-300: #cacaca;
 $black: #000;
 $green: #289258;
 
 $font-family-main: 'Source Code Pro', Helvetica, Arial, Sans;
 $font-size-base: 15px;
+$font-weight-bold: 600;
 $line-height-base: 20px;
-$background-color: $grey;
+$background-color: $grey-100;
 $accent-color: $green;
 
 // Helpers
@@ -33,15 +36,14 @@ $accent-color: $green;
 	text-align: right;
 }
 
+@mixin transition {
+	transition: all 0.2s ease;
+}
+
 @mixin box-shadow {
   -webkit-box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.04);
   -moz-box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.04);
   box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.04);
-}
-
-
-h1 {
-
 }
 
 p {
@@ -51,12 +53,19 @@ p {
 
 a {
 	color: $black;
+	&:hover,
+	&:visited,
+	&:focus {
+		color: $black;
+		text-decoration: none;
+	}
 }
 
 .btn {
+	@include transition;
 	border: none;
 	border-radius: 1px;
-	padding: 6px 30px;
+	padding: 6px 27px;
 	&.btn-primary {
 		background: $black;
 		border: 1px solid $black;
@@ -65,10 +74,16 @@ a {
 			border: 1px solid $accent-color;
 		}
 	}
+	&.btn-secondary {
+		background: $grey-200; 
+		&:hover {
+			background: $grey-300;
+		}
+	}
 }
 .input-group {
 	input {
-	  border: 1px solid black;
+	  border: 1px solid $grey-200;
 	  border-radius: 1px;
 	  box-shadow: none;
 	  height: 33px;
@@ -89,6 +104,28 @@ html {
 		font-family: $font-family-main;
 		header {
 			padding: 30px 0;
+			h1 {
+				display: inline-block;
+				font-size: 19px;
+				font-weight: $font-weight-bold;
+				margin-right: 6px;
+				vertical-align: -webkit-baseline-middle;
+			}
+			.moon {
+				background: url('../images/emoji-dark-moon@2x.png');
+				background-size: 27px;
+				display: inline-block;
+				height: 27px;
+				width: 27px;
+				vertical-align: -webkit-baseline-middle;
+			}
+			.moon-animation {
+				background: url('../images/emoji-moon-animation.gif');
+				background-size: 27px;
+			}
+			p {
+				margin-top: 12px;
+			}
 		}
 		section.content {
 			padding-bottom: 140px;
@@ -106,28 +143,33 @@ html {
 				margin-top: 60px;
 				width: 325px;
 				position: relative;
-			}
-			.album {
-				@include box-shadow;
-				background: grey;
-				border-radius: 1px;
-				height: 325px;
-				margin-top: 60px;
-				position: absolute;
-				width: 325px;
-				z-index: 2;
-			}
-			.album-shadow {
-				@include box-shadow;
-				background: $white;
-				border-radius: 1px;
-				height: 325px;
-				margin-top: 60px;
-				position: absolute;
-				transform: translate(20px, 20px);
-				transition: all 0.2s ease;
-				width: 325px;
-				z-index: 1;
+				.album {
+					@include box-shadow;
+					background: grey;
+					border-radius: 1px;
+					height: 325px;
+					margin-top: 40px;
+					position: absolute;
+					width: 325px;
+					z-index: 2;
+				}
+				.album-shadow {
+					@include transition;
+					@include box-shadow;
+					background: $white;
+					border-radius: 1px;
+					height: 325px;
+					margin-top: 40px;
+					position: absolute;
+					transform: translate(20px, 20px);
+					width: 325px;
+					z-index: 1;
+				}
+				&:hover {
+					.album-shadow {
+						transform: translate(26px, 26px);
+					}
+				}
 			}
 		}
 		footer {
