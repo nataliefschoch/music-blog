@@ -6,16 +6,42 @@
 .text-center {
   text-align: center; }
 
+.text-right {
+  text-align: right; }
+
 p {
   font-size: 15px;
   line-height: 20px; }
+
+a {
+  color: #000; }
+
+.btn {
+  border: none;
+  border-radius: 1px;
+  padding: 6px 30px; }
+  .btn.btn-primary {
+    background: #000;
+    border: 1px solid #000; }
+    .btn.btn-primary:hover {
+      background: #289258;
+      border: 1px solid #289258; }
+
+.input-group input {
+  border: 1px solid black;
+  border-radius: 1px;
+  box-shadow: none;
+  height: 33px; }
+  .input-group input:focus {
+    box-shadow: none;
+    border: 1px solid #289258; }
 
 html {
   background-color: #fff;
   font-size: 15px;
   line-height: 20px; }
   html body {
-    background-color: #eeeeee;
+    background-color: #eee;
     font-family: "Source Code Pro", Helvetica, Arial, Sans; }
     html body header {
       padding: 30px 0; }
@@ -28,25 +54,37 @@ html {
       html body section.content .album-wrapper {
         display: block;
         height: 325px;
+        margin-top: 60px;
         width: 325px;
         position: relative; }
       html body section.content .album {
+        -webkit-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+        -moz-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+        box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
         background: grey;
+        border-radius: 1px;
         height: 325px;
         margin-top: 60px;
         position: absolute;
         width: 325px;
         z-index: 2; }
       html body section.content .album-shadow {
+        -webkit-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+        -moz-box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
+        box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
         background: #fff;
+        border-radius: 1px;
         height: 325px;
         margin-top: 60px;
         position: absolute;
         transform: translate(20px, 20px);
+        transition: all 0.2s ease;
         width: 325px;
         z-index: 1; }
     html body footer {
-      background: #fff;
+      background: url("../images/bg-graph-pattern@2x.jpg");
+      background-color: #fff;
+      background-size: 80px;
       padding: 70px 0; }
       html body footer .social-links {
         float: right;
