@@ -26,12 +26,12 @@
 						<p>Curated mixes and playlists</p>
 					</div>
 				</div>
-				<div class='col-md-2 col-md-offset-1 text-right hidden-xs'>
+				<div class='col-md-2 col-md-offset-1 col-sm-4 text-right hidden-xs'>
 					<button class='btn btn-secondary' type="button">
 						bookmark page
 					</button>
 				</div>
-				<div class='col-md-5'>
+				<div class='col-md-5 col-sm-8'>
 					<form style="padding:3px;text-align:center;" action="https://tinyletter.com/ineedspace" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/ineedspace', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
 					 	<input type="text" style="width:65%; float:left; height:33px; border: 1px solid #dadada" placeholder='Enter your email...' name="email" id="tlemail" />
 					 	<input type="hidden" value="1" name="embed"/><input class='btn btn-primary' style='width:35%; float:left;' type="submit" value="Subscribe" />
