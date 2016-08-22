@@ -13,6 +13,9 @@
 .text-right {
   text-align: right; }
 
+.italic {
+  font-style: italic; }
+
 .caps {
   text-transform: uppercase; }
 
@@ -21,6 +24,9 @@
 
 .text-right {
   text-align: right; }
+
+.italic {
+  font-style: italic; }
 
 section.content-home .col-md-4:nth-of-type(2) {
   margin-top: 150px; }
@@ -47,6 +53,9 @@ section.content-home .album-wrapper {
 
 .text-right {
   text-align: right; }
+
+.italic {
+  font-style: italic; }
 
 section.content-playlist table {
   width: 100%; }
@@ -96,9 +105,9 @@ p {
   line-height: 20px; }
 
 a {
-  color: #000; }
+  color: #ff6458; }
   a:hover, a:visited, a:focus {
-    color: #000;
+    color: #ff6458;
     text-decoration: none; }
 
 .btn {
@@ -110,8 +119,8 @@ a {
     background: #000;
     border: 1px solid #000; }
     .btn.btn-primary:hover {
-      background: #289258;
-      border: 1px solid #289258; }
+      background: #ff6458;
+      border: 1px solid #ff6458; }
   .btn.btn-secondary {
     background: #dadada; }
     .btn.btn-secondary:hover {
@@ -135,7 +144,8 @@ html {
     font-family: "Source Code Pro", Helvetica, Arial, Sans; }
     html body header {
       padding: 30px 0; }
-      html body header h1 {
+      html body header a h1 {
+        color: #000;
         display: inline-block;
         font-size: 19px;
         font-weight: 600;
@@ -186,12 +196,19 @@ html {
       background-color: #fff;
       background-size: 80px;
       padding: 70px 0; }
+      html body footer .bio .copy {
+        margin-top: 5px;
+        opacity: 0.4;
+        font-size: 13px; }
       html body footer .social-links {
         float: right;
+        margin-top: 30px;
         width: 10%; }
         html body footer .social-links .social {
           -ms-transform: rotate(55deg);
           -webkit-transform: rotate(55deg);
           transform: rotate(55deg); }
+          html body footer .social-links .social a {
+            color: #ff6458; }
 
 /*# sourceMappingURL=style.css.map */

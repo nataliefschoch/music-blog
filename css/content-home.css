@@ -9,6 +9,9 @@
 .text-right {
   text-align: right; }
 
+.italic {
+  font-style: italic; }
+
 section.content-home .col-md-4:nth-of-type(2) {
   margin-top: 150px; }
 section.content-home .col-md-4:nth-of-type(3) {

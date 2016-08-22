@@ -8,14 +8,14 @@ $grey-100: #eee;
 $grey-200: #dadada;
 $grey-300: #cacaca;
 $black: #000;
-$green: #289258;
+$red: #ff6458;
 
 $font-family-main: 'Source Code Pro', Helvetica, Arial, Sans;
 $font-size-base: 15px;
 $font-weight-bold: 600;
 $line-height-base: 20px;
 $background-color: $grey-100;
-$accent-color: $green;
+$accent-color: $red;
 
 // Helpers
 .caps {
@@ -27,7 +27,9 @@ $accent-color: $green;
 .text-right {
 	text-align: right;
 }
-
+.italic {
+	font-style: italic;
+}
 @mixin transition {
 	transition: all 0.2s ease;
 }

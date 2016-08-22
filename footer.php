@@ -1,11 +1,13 @@
 	<footer>
 		<div class='container'>
 			<div class='row'>
-				<div class='col-md-4'>
+				<div class='col-md-4 bio'>
 					<p>
-						I need space is a curated list of chill songs for chill people.
-						Curated by Natalie
+						<span class='italic'>I need space</span> features hand-crafted and curated lists, posted monthly(ish). The site is 
+						<a href='https://github.com/nataliefschoch/music-blog'>hand-coded</a>, designed, and features original artwork by 
+						<a href='www.natalieschoch.com'>Natalie Schoch</a>.
 					</p>
+					<p class='copy'>Natalie Schoch &copy; 2016
 				</div>
 				<div class='col-md-8'>
 					<div class='social-links'>
@@ -16,11 +18,6 @@
 					<div class='social-links'>
 						<div class='social'>
 							<a href='#'>Email</a>
-						</div>
-					</div>
-					<div class='social-links'>
-						<div class='social'>
-							<a href='#'>Insta</a>
 						</div>
 					</div>
 				</div>

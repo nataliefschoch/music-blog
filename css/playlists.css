@@ -9,6 +9,9 @@
 .text-right {
   text-align: right; }
 
+.italic {
+  font-style: italic; }
+
 section.content-playlist table {
   width: 100%; }
   section.content-playlist table td,
