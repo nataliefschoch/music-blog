@@ -50,8 +50,11 @@ section.content-home .album-wrapper {
 
 section.content-playlist table {
   width: 100%; }
-  section.content-playlist table td {
+  section.content-playlist table td,
+  section.content-playlist table th {
     padding: 7px 20px; }
+  section.content-playlist table th {
+    opacity: 0.3; }
 section.content-playlist .album-wrapper {
   display: block;
   height: 325px;
@@ -79,6 +82,14 @@ section.content-playlist .album-wrapper {
     transform: translate(20px, 20px);
     width: 325px;
     z-index: 1; }
+section.content-playlist .playlist-info {
+  margin-top: 100px; }
+  section.content-playlist .playlist-info .desc h3 {
+    font-weight: 600; }
+  section.content-playlist .playlist-info .desc p.date {
+    opacity: 0.6; }
+  section.content-playlist .playlist-info .desc p.desc {
+    margin-top: 15px; }
 
 p {
   font-size: 15px;
@@ -143,6 +154,9 @@ html {
       html body header p {
         margin-top: 12px;
         opacity: 0.6; }
+      html body header input:focus {
+        box-shadow: none;
+        outline: none; }
     html body section.content {
       padding-top: 60px;
       padding-bottom: 140px; }
@@ -155,9 +169,7 @@ html {
           box-shadow: 2px 2px 14px 0px rgba(0, 0, 0, 0.04);
           background: grey;
           border-radius: 1px;
-          height: 325px;
           position: absolute;
-          width: 325px;
           z-index: 2; }
         html body section.content .album-wrapper .album-shadow {
           transition: all 0.2s ease;

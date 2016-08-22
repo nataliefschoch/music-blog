@@ -85,6 +85,10 @@ html {
 				margin-top: 12px;
 				opacity: 0.6;
 			}
+			input:focus {
+				box-shadow: none;
+				outline: none;
+			}
 		}
 		section.content {
 			padding-top: 60px;
@@ -96,9 +100,7 @@ html {
 					@include box-shadow;
 					background: grey;
 					border-radius: 1px;
-					height: 325px;
 					position: absolute;
-					width: 325px;
 					z-index: 2;
 				}
 				.album-shadow {
