@@ -29,23 +29,23 @@
 						</tr>
 						<tr>
 							<td>1</td>
-							<td>Interference Fits</td>
-							<td>Perfect Pussy</td>
+							<td>Gay Angels</td>
+							<td>Perfume Genius</td>
 						</tr>
 						<tr>
 							<td>2</td>
-							<td>O Mein M</td>
-							<td>Dum Dum Girls</td>
+							<td>Eugene</td>
+							<td>Sufjan Stevens</td>
 						</tr>
 						<tr>
 							<td>3</td>
-							<td>Tell the World</td>
-							<td>Vivian Girls</td>
+							<td>Love no Less Worthy</td>
+							<td>J.Tillman</td>
 						</tr>
 						<tr>
 							<td>4</td>
-							<td>Interference Fits</td>
-							<td>Perfect Pussy</td>
+							<td>Meet You in the Maze</td>
+							<td>James Blake</td>
 						</tr>
 						<tr>
 							<td>5</td>

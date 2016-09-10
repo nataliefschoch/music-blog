@@ -1,17 +1,22 @@
 @import 'global_styles.scss';
 
 section.content-home {
+	text-align: center;
 	.album-wrapper {
-		height: 325px;
+		height: 225px;
+		margin: auto;
 		margin-bottom: 60px;
-		width: 325px;
+		width: 225px;
 		.album {
-			height: 325px;
-			width: 325px;
+			height: 225px;
+			width: 225px;
+			img {
+				width: 225px;
+			}
 		}
 		.album-shadow {
-			height: 325px;
-			width: 325px;
+			height: 225px;
+			width: 225px;
 		}
 		&:hover {
 			.album-shadow {
@@ -24,7 +29,22 @@ section.content-home {
 	}
 	/* Small devices (tablets, 768px and up) */
 	@media (min-width: 768px) {
-
+		text-align: left;
+		.album-wrapper {
+			height: 325px;
+			width: 325px;
+			.album {
+				height: 325px;
+				width: 325px;
+				img {
+				width: 325px;
+			}
+			}
+			.album-shadow {
+				height: 325px;
+				width: 325px;
+			}
+		}
 	}
 	/* Medium devices (desktops, 992px and up) */
 	@media (min-width: 992px) {
