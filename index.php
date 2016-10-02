@@ -15,6 +15,7 @@
 				<a href='#'>
 					<div class='album-wrapper'>
 						<div class='album'>
+							<img src='images/album-cover-sept-2016@2x.jpg'>
 						</div>
 						<div class='album-shadow'></div>
 					</div>
@@ -24,14 +25,14 @@
 				<a href='#'>
 					<div class='album-wrapper'>
 						<div class='album'>
-							<img src='images/album-cover-sept-2016@2x.jpg' width='325px'>
 						</div>
 						<div class='album-shadow'></div>
 					</div>
 				</a>
 				<a href='#'>
 					<div class='album-wrapper'>
-						<div class='album'></div>
+						<div class='album'>
+						</div>
 						<div class='album-shadow'></div>
 					</div>
 				</a>

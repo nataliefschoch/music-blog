@@ -10,7 +10,7 @@
 						<div class='album-shadow'></div>
 					</div>
 				</div>
-				<div class='col-md-7 col-md-offset-1'>
+				<div class='col-md-7 col-md-offset-1 playlist-embed'>
 					<iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Anattybratty%3Aplaylist%3A21GIP7RGZqwPtMAC9dbrnp" width="100%" height="325" frameborder="0" allowtransparency="true"></iframe>
 				</div>
 			</div>
@@ -39,23 +39,43 @@
 						</tr>
 						<tr>
 							<td>3</td>
-							<td>Love no Less Worthy</td>
-							<td>J.Tillman</td>
+							<td>Dark Side of the Moon</td>
+							<td>Chris Staples</td>
 						</tr>
 						<tr>
 							<td>4</td>
-							<td>Meet You in the Maze</td>
-							<td>James Blake</td>
+							<td>Tiger Trap</td>
+							<td>Beat Happening</td>
 						</tr>
 						<tr>
 							<td>5</td>
-							<td>O Mein M</td>
-							<td>Dum Dum Girls</td>
+							<td>Water Me</td>
+							<td>FKA twig</td>
 						</tr>
 						<tr>
 							<td>6</td>
-							<td>Tell the World</td>
-							<td>Vivian Girls</td>
+							<td>Don't Let Them In</td>
+							<td>Perfume Genius</td>
+						</tr>
+						<tr>
+							<td>7</td>
+							<td>Stars of Track And Field</td>
+							<td>Belle &amp; Sebastian</td>
+						</tr>
+						<tr>
+							<td>8</td>
+							<td>Blue Bucket of Gold</td>
+							<td>Sufjan Stevens</td>
+						</tr>
+						<tr>
+							<td>9</td>
+							<td>Learning</td>
+							<td>Perfume Genius</td>
+						</tr>
+						<tr>
+							<td>10</td>
+							<td>He's Running Through My Eyes</td>
+							<td>Julia Holter</td>
 						</tr>
 					</table>
 				</div>

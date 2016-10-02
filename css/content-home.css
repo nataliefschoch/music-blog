@@ -13,23 +13,42 @@
   font-style: italic; }
 
 section.content-home {
+  text-align: center;
   /* Small devices (tablets, 768px and up) */
   /* Medium devices (desktops, 992px and up) */
   /* Large devices (large desktops, 1200px and up) */ }
   section.content-home .album-wrapper {
-    height: 325px;
+    height: 225px;
+    margin: auto;
     margin-bottom: 60px;
-    width: 325px; }
+    width: 225px; }
     section.content-home .album-wrapper .album {
-      height: 325px;
-      width: 325px; }
+      height: 225px;
+      width: 225px; }
+      section.content-home .album-wrapper .album img {
+        width: 225px; }
     section.content-home .album-wrapper .album-shadow {
-      height: 325px;
-      width: 325px; }
+      height: 225px;
+      width: 225px; }
     section.content-home .album-wrapper:hover .album-shadow {
       transform: translate(26px, 26px); }
     section.content-home .album-wrapper:nth-of-type(2) {
       float: right; }
+  @media (min-width: 768px) {
+    section.content-home {
+      text-align: left; }
+      section.content-home .album-wrapper {
+        height: 325px;
+        margin-left: 0;
+        width: 325px; }
+        section.content-home .album-wrapper .album {
+          height: 325px;
+          width: 325px; }
+          section.content-home .album-wrapper .album img {
+            width: 325px; }
+        section.content-home .album-wrapper .album-shadow {
+          height: 325px;
+          width: 325px; } }
   @media (min-width: 992px) {
     section.content-home .col-md-4:nth-of-type(2) {
       margin-top: 150px; }

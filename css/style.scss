@@ -33,25 +33,19 @@ a {
 		}
 	}
 	&.btn-secondary {
-		background: $grey-200; 
+		background: rgba(0, 0, 0, 0.06);
 		&:hover {
-			background: $grey-300;
+			background: rgba(0, 0, 0, 0.1);
 		}
 	}
 }
-.input-group {
-	input {
-	  border: 1px solid $grey-200;
-	  border-radius: 1px;
-	  box-shadow: none;
-	  height: 33px;
-	  padding-left: 15px;
-	  &:focus {
-	  	box-shadow: none;
-    	border: 1px solid $grey-300;
-	  }
-	}
+form {
+	padding: 0 !important;
 }
+input {
+	padding-left: 10px;
+}
+
 
 // Styles
 
