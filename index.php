@@ -15,7 +15,7 @@
 				<a href='#'>
 					<div class='album-wrapper'>
 						<div class='album'>
-							<img src='images/album-cover-sept-2016@2x.jpg'>
+							<img src='images/album-cover-riot-grrrl@2x.jpg'>
 						</div>
 						<div class='album-shadow'></div>
 					</div>
@@ -25,6 +25,8 @@
 				<a href='#'>
 					<div class='album-wrapper'>
 						<div class='album'>
+							<img src='images/album-cover-chill-vibes-maximize@2x.jpg'>
+		
 						</div>
 						<div class='album-shadow'></div>
 					</div>
@@ -32,6 +34,7 @@
 				<a href='#'>
 					<div class='album-wrapper'>
 						<div class='album'>
+							<img src='images/album-cover-sept-2016@2x.jpg'>
 						</div>
 						<div class='album-shadow'></div>
 					</div>
@@ -41,14 +44,16 @@
 				<a href='playlist-chill-vibes-maximize.php'>
 					<div class='album-wrapper'>
 						<div class='album'>
-							<img src='images/album-cover-chill-vibes-maximize@2x.jpg'>
+							<img src='images/album-cover-the-future-is-female@2x.jpg'>
 						</div>
 						<div class='album-shadow'></div>
 					</div>
 				</a>
 				<a href='#'>
 					<div class='album-wrapper'>
-						<div class='album'></div>
+						<div class='album'>
+							<img src='images/album-cover-twee-pop@2x.jpg'>
+						</div>
 						<div class='album-shadow'></div>
 					</div>
 				</a>

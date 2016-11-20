@@ -74,16 +74,12 @@ header {
 		text-align: center;
 	}
 	.moon {
-		background: url('../images/emoji-dark-moon@2x.png');
+		background: url('../images/emoji-moon-animation.gif');
 		background-size: 27px;
 		display: inline-block;
 		height: 27px;
 		width: 27px;
 		vertical-align: -webkit-baseline-middle;
-	}
-	.moon-animation {
-		background: url('../images/emoji-moon-animation.gif');
-		background-size: 27px;
 	}
 	p {
 		margin-top: 12px;
@@ -95,9 +91,7 @@ header {
 	}
 	/* Medium devices (desktops, 992px and up) */
 	@media (min-width: 992px) {
-		.logo {
-			text-align: left;
-		}
+
 	}
 }
 
@@ -127,7 +121,6 @@ section.content {
 }
 
 footer {
-	background: url('../images/bg-graph-pattern@2x.jpg');
 	background-color: $white;
 	background-size: 80px;
 	padding: 70px 0;

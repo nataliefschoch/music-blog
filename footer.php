@@ -25,15 +25,3 @@
 		</div>
 	</footer>
 </body>
-
-
-
-<script>
-	$(".logo").hover(
-	  function() {
-	    $('.moon').addClass('moon-animation');
-	  }, function() {
-	    $('.moon').removeClass('moon-animation');
-	  }
-	);
-</script>

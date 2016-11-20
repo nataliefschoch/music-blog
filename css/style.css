@@ -194,24 +194,18 @@ header {
     margin-bottom: 20px;
     text-align: center; }
   header .moon {
-    background: url("../images/emoji-dark-moon@2x.png");
+    background: url("../images/emoji-moon-animation.gif");
     background-size: 27px;
     display: inline-block;
     height: 27px;
     width: 27px;
     vertical-align: -webkit-baseline-middle; }
-  header .moon-animation {
-    background: url("../images/emoji-moon-animation.gif");
-    background-size: 27px; }
   header p {
     margin-top: 12px;
     opacity: 0.6; }
   header input:focus {
     box-shadow: none;
     outline: none; }
-  @media (min-width: 992px) {
-    header .logo {
-      text-align: left; } }
 
 section.content {
   padding-top: 60px;
@@ -239,7 +233,6 @@ section.content {
       z-index: 1; }
 
 footer {
-  background: url("../images/bg-graph-pattern@2x.jpg");
   background-color: #fff;
   background-size: 80px;
   padding: 70px 0; }
