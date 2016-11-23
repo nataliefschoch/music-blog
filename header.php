@@ -22,8 +22,8 @@
 								I need space
 							</h1>
 							<div class='moon'></div>
+							<p>Curated mixes</p>
 						</a>
-						<p>Curated mixes and playlists</p>
 					</div>
 				</div>
 			</div>

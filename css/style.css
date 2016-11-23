@@ -141,8 +141,8 @@ section.content.content-playlist {
         z-index: 1; } }
 
 p {
-  font-size: 15px;
-  line-height: 25px; }
+  font-size: 13px;
+  line-height: 22px; }
 
 a {
   color: #ff6458; }
@@ -174,10 +174,10 @@ input {
 
 html {
   background-color: #fff;
-  font-size: 15px;
-  line-height: 25px; }
+  font-size: 13px;
+  line-height: 22px; }
   html body {
-    background-color: #eee;
+    background-color: rgba(234, 234, 238, 0.6);
     font-family: "Source Code Pro", Helvetica, Arial, Sans; }
 
 header {
@@ -191,6 +191,7 @@ header {
     margin-right: 6px;
     vertical-align: -webkit-baseline-middle; }
   header .logo {
+    display: block;
     margin-bottom: 20px;
     text-align: center; }
   header .moon {
@@ -201,8 +202,11 @@ header {
     width: 27px;
     vertical-align: -webkit-baseline-middle; }
   header p {
-    margin-top: 12px;
-    opacity: 0.6; }
+    color: #838b94;
+    font-size: 15px;
+    vertical-align: -webkit-baseline-middle;
+    margin-left: 10px;
+    display: inline-block; }
   header input:focus {
     box-shadow: none;
     outline: none; }

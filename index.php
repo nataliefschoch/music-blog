@@ -22,7 +22,7 @@
 				</a>
 			</div>
 			<div class='col-md-4'>
-				<a href='#'>
+				<a href='playlist-chill-vibes-maximize.php'>
 					<div class='album-wrapper'>
 						<div class='album'>
 							<img src='images/album-cover-chill-vibes-maximize@2x.jpg'>
@@ -41,7 +41,7 @@
 				</a>
 			</div>
 			<div class='col-md-4'>
-				<a href='playlist-chill-vibes-maximize.php'>
+				<a href='playlist-the-future-is-female-2016.php'>
 					<div class='album-wrapper'>
 						<div class='album'>
 							<img src='images/album-cover-the-future-is-female@2x.jpg'>

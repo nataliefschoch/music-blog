@@ -70,6 +70,7 @@ header {
 		vertical-align: -webkit-baseline-middle;
 	}
 	.logo {
+		display: block;
 		margin-bottom: 20px;
 		text-align: center;
 	}
@@ -82,8 +83,11 @@ header {
 		vertical-align: -webkit-baseline-middle;
 	}
 	p {
-		margin-top: 12px;
-		opacity: 0.6;
+		color: $grey-400;
+		font-size: 15px;
+    	vertical-align: -webkit-baseline-middle;
+    	margin-left: 10px;
+    	display: inline-block;
 	}
 	input:focus {
 		box-shadow: none;
